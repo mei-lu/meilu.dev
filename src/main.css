@@ -7,7 +7,63 @@ body {
   background-color: #FCF3F1;
 }
 
+/* Text */
 h1, h2, h3 {
   font-family: 'Black Delights';
+}
+
+/* Hero */
+.hero-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-container .hero-content {
+  padding: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-container .expand-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.hero-container .expand-btn img {
+  width: 1.5rem;
+}
+
+/* Socials */
+.socials {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  right: 0;
+  top: 0;
+  margin: 2rem;
+}
+
+.socials img {
+  width: 3.5rem;
+  padding: 0.75rem;
 }
 /*# sourceMappingURL=main.css.map */

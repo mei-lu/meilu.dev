@@ -1,18 +1,28 @@
 import * as React from "react"
-import { Container, Image } from "react-bootstrap"
+import { Col, Container, Image, Row } from "react-bootstrap"
 import Headshot from "../images/headshot.jpg"
+import DownArrow from "../images/downarrow.svg"
 
 const Hero = () => {
     return (
         <Container fluid className="hero-container">
-            <Image fluid roundedCircle src={Headshot}/>
-            <h1>hi i'm mei.</h1>
-            <h3>cs student @ university of maryland, college park</h3>
-            <p>i make programs, illustrations, and yummy food. 
-                currently organizing bitcamp, umd’s premier hackathon 
-                and the largest collegiate hackathon on the east coast.</p>
-
-            <div>my journey</div>
+            <Row className="hero-content">
+                <Col sm={6} md={4} lg={3}>
+                    <Image fluid roundedCircle src={Headshot} />
+                </Col>
+                <Col>
+                    <h1>hi i'm mei.</h1>
+                    <p>cs student @ university of maryland, college park</p>
+                    <p>i make programs and art.
+                        <br/>
+                        currently organizing bitcamp, the largest collegiate hackathon on the east coast.
+                    </p>
+                </Col>
+            </Row>
+            <div className="expand-btn">
+                <p>my journey</p>
+                <Image src={DownArrow}/>
+            </div>
         </Container>
 
     )
