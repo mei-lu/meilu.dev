@@ -1,0 +1,16 @@
+$main: #FCF3F1;
+$text: #320906;
+$accent: #FEE0D9;
+
+@font-face {
+    font-family: 'Black Delights';
+    src: url('./fonts/Black_Delights.ttf') format('truetype');
+}
+
+body {
+    background-color: $main;
+}
+
+h1, h2, h3 {
+    font-family: 'Black Delights';
+}

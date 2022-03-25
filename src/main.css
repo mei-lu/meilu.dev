@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Black Delights';
+  src: url("./fonts/Black_Delights.ttf") format("truetype");
+}
+
+body {
+  background-color: #FCF3F1;
+}
+
+h1, h2, h3 {
+  font-family: 'Black Delights';
+}
+/*# sourceMappingURL=main.css.map */
